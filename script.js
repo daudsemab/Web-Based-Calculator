@@ -194,7 +194,7 @@ function evaluateEquation() {
         resultScreen.textContent = result;
     }
     catch {
-        result = "Error! Your expression may not be valid.";
+        result = "Error! Expression is not valid.";
         resultScreen.textContent = result;
     }
 }
